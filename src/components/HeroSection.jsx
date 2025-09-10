@@ -14,7 +14,7 @@ function HeroSection() {
       <div className="content">
         <h1 className="heading">LBS HALL OF RESIDENCE</h1>
         <p className="subheading">Indian Institute of Technology Kharagpur</p>
-        <button className="cta" onClick={handleScroll}>View Facilities</button>
+        {/* <button className="cta" onClick={handleScroll}>View Facilities</button> */}
       </div>
     </section>
   );

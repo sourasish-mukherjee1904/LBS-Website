@@ -57,28 +57,31 @@
   animation-delay: 0.5s;
 }
 
+
 .facility-cta {
-  background-color: #511e1e;
+  background-color: #7a2e2e;
   color: white;
-  border: 1px solid white;
-  padding: 14px 28px;
-  font-size: 1rem;
+  padding: 12px 24px;
+  border: none;
   border-radius: 8px;
   cursor: pointer;
-  opacity: 0;
-  transform: translateY(30px);
-  animation: fadeSlideUp 1s ease-out forwards;
-  animation-delay: 1s;
-  font-weight: 600;
-  transition: transform 0.25s ease, background 0.3s ease, color 0.3s ease;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out; /* smooth animation */
 }
 
 .facility-cta:hover {
   background-color: #511e1e;
   color: white;
-  transform: scale(1.2);
+  transform: scale(1.1); /* subtle zoom */
   border: 1px solid white;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3); /* shadow effect */
 }
+
+.facility-cta:active {
+  transform: scale(0.95); /* press down effect */
+}
+
 
 /* Fade in + slide up animation */
 @keyframes fadeSlideUp {

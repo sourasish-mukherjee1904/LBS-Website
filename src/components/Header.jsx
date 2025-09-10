@@ -43,7 +43,8 @@ const Header = () => {
         <a href="#words" onClick={(e) => handleSmoothScroll(e, "words-carousel")}>Words</a>
         <a href="#facilities" onClick={(e) => handleSmoothScroll(e, "collection")}>Facilities</a>
         <a href="#events" onClick={(e) => handleSmoothScroll(e, "events")}>Events</a>
-        <a href="#contact" onClick={(e) => handleSmoothScroll(e, "contact")}>Contact</a>
+        <a href="#gallery" onClick={(e) => handleSmoothScroll(e, "gallery")}>Gallery</a>
+        <a href="contact-section" >Contact</a>
       </nav>
     </header>
   );

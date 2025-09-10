@@ -15,6 +15,8 @@ import FacilityPage from "./components/FacilityPage";
 import SportsEventsPage from "./components/SportsEvents"; 
 import TechEventsPage from "./components/TechEvents"; 
 import CulturalEventsPage from "./components/CulturalEvents";
+import ContactSection from "./components/ContactSection";
+import Gallery from "./components/Gallery";
 
 function App() {
   return (
@@ -31,6 +33,7 @@ function App() {
               <WordsCarousel />
               <CollectionSection />
               <EventSection />
+              <Gallery />
             </>
           }
         />
@@ -40,6 +43,7 @@ function App() {
         <Route path="/sports-events" element={<SportsEventsPage />} />
         <Route path="/tech-events" element={<TechEventsPage />} />
         <Route path="/cultural-events" element={<CulturalEventsPage />} />
+        <Route path="/contact-section" element={<ContactSection />} />
       </Routes>
     </Router>
   );
